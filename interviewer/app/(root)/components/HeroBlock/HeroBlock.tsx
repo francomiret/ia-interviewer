@@ -41,7 +41,7 @@ export function HeroBlock() {
         <div className="flex items-center justify-center pb-5">
           <Button
             asChild
-            className="bg-purple-600 text-white rounded-lg px-20 py-6 text-lg font-semibold shadow-lg transition duration-300 ease-in-out"
+            className="bg-blue-600 text-white rounded-lg px-20 py-6 text-lg font-semibold shadow-lg transition duration-300 ease-in-out"
           >
             <Link href="/dashboard">
               <Sparkles className=" group-hover:rotate-12 transition-transform" />

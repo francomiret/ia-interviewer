@@ -11,7 +11,7 @@ export function NavbarMobile() {
   return (
     <div className="flex md:hidden ">
       <Button
-        className="text-purple-900"
+        className="text-blue-900"
         variant="outline"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -21,7 +21,7 @@ export function NavbarMobile() {
         <div className="absolute top-full right-4 mt-2 bg-white text-black rounded-lg shadow-lg p-4 w-48 flex flex-col gap-3">
           {links.map((link) => (
             <Link
-              href={link.name}
+              href={link.href}
               key={link.name}
               onClick={() => setIsOpen(false)}
             >
